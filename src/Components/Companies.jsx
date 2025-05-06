@@ -6,7 +6,7 @@ const Companies = () => {
     console.log(company)
     return (
         <div className='md:max-w-6xl max-w-5xl mx-auto'>
-            <h1 className='font-bold text-2xl text-center'>Search your jobs in world top companies</h1>
+            <h1 className='font-bold text-2xl text-center mb-4'>Search your jobs in  the world top companies</h1>
             <p className='font-medium text-gray-500 text-center text-balance'>Search top global companies' jobs to explore roles, <br /> benefits, growth opportunities, and application processes easily.</p>
            <div className='grid md:grid-cols-3 lg:grid-cols-4 shadow-md rounded-md my-5 py-10 px-5 bg-white gap-6  bg-gradient-to-b from-blue-50 to-red-50'>
              {

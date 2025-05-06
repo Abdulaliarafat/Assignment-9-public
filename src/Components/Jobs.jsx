@@ -14,7 +14,7 @@ const Jobs = ({ one,singleDetails }) => {
             </div>
 
             <dialog id={`modal-${one.id}`} className="modal modal-bottom sm:modal-middle">
-                <div className="modal-box w-full  max-w-6xl h-[600px] px-10">
+                <div className="modal-box w-full max-w-6xl h-[600px] px-10">
                     <img src={one?.bannerImage} alt="Banner" className="w-full h-50 object-cover rounded-lg my-3" />
                     <p className='font-bold text-xl text-gray-800'>Job : {one.title}</p>
                     <p className='font-semibold text-gray-600'>Work : {one.jobType}</p>
