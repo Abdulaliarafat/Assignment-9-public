@@ -1,0 +1,597 @@
+[
+    {
+      "id": "1",
+      "name": "Apple",
+      "logo": "https://i.ibb.co.com/7NQFfbJw/apple.jpg",
+      "location": "Cupertino, CA",
+      "website": "https://www.apple.com",
+      "industry": "Consumer Electronics",
+      
+      "jobs": [
+        {
+          "id": "apple-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Cupertino, CA",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Develop user interfaces for Apple web products.",
+          "requirements": [
+            "Proficient in HTML, CSS, and JavaScript",
+            "Experience with React.js",
+            "Familiarity with RESTful APIs",
+            "Understanding of responsive design",
+            "Excellent problem-solving skills"
+          ]
+        },
+        {
+          "id": "apple-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Cupertino, CA",
+          "salary": "$110k - $140k",
+          "jobType": "Full-time",
+          "description": "Work on backend systems powering Apple services.",
+          "requirements": [
+            "Proficiency in Node.js or Python",
+            "Experience with databases like PostgreSQL",
+            "Knowledge of API design",
+            "Familiarity with cloud infrastructure",
+            "Strong debugging skills"
+          ]
+        },
+        {
+          "id": "apple-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Cupertino, CA",
+          "salary": "$95k - $120k",
+          "jobType": "Full-time",
+          "description": "Design intuitive user interfaces for Apple software.",
+          "requirements": [
+            "Strong portfolio of UI/UX design",
+            "Experience with Figma and Sketch",
+            "User research experience",
+            "Knowledge of accessibility standards",
+            "Collaboration skills"
+          ]
+        },
+        {
+          "id": "apple-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Maintain and automate CI/CD pipelines.",
+          "requirements": [
+            "Experience with Jenkins, GitHub Actions",
+            "AWS or GCP knowledge",
+            "Docker and Kubernetes skills",
+            "Infrastructure as code (Terraform)",
+            "Monitoring and alerting expertise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Facebook",
+      "logo": "https://i.ibb.co.com/35m4NzC0/facebook.png",
+      "location": "Menlo Park, CA",
+      "website": "https://www.facebook.com",
+      "industry": "Social Media",
+      "jobs": [
+        {
+          "id": "facebook-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Menlo Park, CA",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Build user interfaces for Facebook web and mobile applications.",
+          "requirements": [
+            "Expertise in JavaScript, HTML, and CSS",
+            "Experience with React.js or Angular",
+            "Proficiency in RESTful APIs",
+            "Understanding of responsive design",
+            "Attention to detail"
+          ]
+        },
+        {
+          "id": "facebook-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Menlo Park, CA",
+          "salary": "$110k - $140k",
+          "jobType": "Full-time",
+          "description": "Develop backend services that power Facebook's social platform.",
+          "requirements": [
+            "Strong experience in Node.js or Python",
+            "Proficiency with MySQL or MongoDB",
+            "Experience with microservices architecture",
+            "Knowledge of message brokers (e.g., Kafka)",
+            "Experience in cloud computing"
+          ]
+        },
+        {
+          "id": "facebook-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Menlo Park, CA",
+          "salary": "$95k - $120k",
+          "jobType": "Full-time",
+          "description": "Design seamless user experiences for Facebook apps.",
+          "requirements": [
+            "Experience with design tools like Figma or Sketch",
+            "Strong portfolio showcasing design work",
+            "Experience in user research and testing",
+            "Knowledge of accessibility guidelines",
+            "Excellent communication skills"
+          ]
+        },
+        {
+          "id": "facebook-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Maintain and improve Facebook's infrastructure and automation.",
+          "requirements": [
+            "Experience with AWS, GCP, or Azure",
+            "Proficiency in Docker, Kubernetes",
+            "Experience with Terraform and Ansible",
+            "CI/CD pipeline management",
+            "Strong problem-solving skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Google",
+      "logo": "https://i.ibb.co.com/Hp90ktc6/google.jpg",
+      "location": "Mountain View, CA",
+      "website": "https://www.google.com",
+      "industry": "Technology",
+      "jobs": [
+        {
+          "id": "google-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Mountain View, CA",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Build web applications for Google's services.",
+          "requirements": [
+            "Expert knowledge in JavaScript, HTML, and CSS",
+            "Experience with React.js or Angular",
+            "Strong problem-solving skills",
+            "Understanding of UI frameworks",
+            "Familiarity with RESTful APIs"
+          ]
+        },
+        {
+          "id": "google-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Mountain View, CA",
+          "salary": "$110k - $140k",
+          "jobType": "Full-time",
+          "description": "Work on backend systems that scale for Google services.",
+          "requirements": [
+            "Experience in Python, Java, or Go",
+            "Strong understanding of algorithms",
+            "Knowledge of database systems (SQL/NoSQL)",
+            "Experience with microservices",
+            "Familiarity with Kubernetes"
+          ]
+        },
+        {
+          "id": "google-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Mountain View, CA",
+          "salary": "$95k - $120k",
+          "jobType": "Full-time",
+          "description": "Design intuitive user experiences for Google products.",
+          "requirements": [
+            "Experience with design tools like Sketch or Figma",
+            "Strong portfolio showcasing UI/UX design",
+            "Experience in wireframing and prototyping",
+            "Knowledge of Google Material Design",
+            "Good communication skills"
+          ]
+        },
+        {
+          "id": "google-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Develop and maintain CI/CD pipelines at Google.",
+          "requirements": [
+            "Experience with cloud services (GCP, AWS)",
+            "Strong knowledge of Docker and Kubernetes",
+            "Experience with automation tools",
+            "Familiarity with Terraform and Jenkins",
+            "Problem-solving skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Amazon",
+      "logo": "https://i.ibb.co.com/HZvZ0w3/amazon.jpg",
+      "location": "Seattle, WA",
+      "website": "https://www.amazon.com",
+      "industry": "E-commerce",
+      "jobs": [
+        {
+          "id": "amazon-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Seattle, WA",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Develop front-end features for Amazon's marketplace.",
+          "requirements": [
+            "Expert knowledge in JavaScript, HTML, and CSS",
+            "Experience with React.js or Vue.js",
+            "Strong understanding of responsive design",
+            "Experience with API integration",
+            "Problem-solving attitude"
+          ]
+        },
+        {
+          "id": "amazon-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Seattle, WA",
+          "salary": "$110k - $140k",
+          "jobType": "Full-time",
+          "description": "Work on Amazon's cloud services infrastructure.",
+          "requirements": [
+            "Experience with AWS services",
+            "Proficiency in Python, Java, or Go",
+            "Experience with relational and NoSQL databases",
+            "Microservices architecture experience",
+            "Familiarity with Kubernetes"
+          ]
+        },
+        {
+          "id": "amazon-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Seattle, WA",
+          "salary": "$95k - $120k",
+          "jobType": "Full-time",
+          "description": "Design user interfaces for Amazon's web products.",
+          "requirements": [
+            "Proficient in UX design tools like Figma and Adobe XD",
+            "Experience with wireframing and prototyping",
+            "Strong visual design sense",
+            "Experience working with cross-functional teams",
+            "User-centric mindset"
+          ]
+        },
+        {
+          "id": "amazon-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Develop and manage infrastructure for Amazon's services.",
+          "requirements": [
+            "Experience with AWS and cloud platforms",
+            "Proficiency in scripting languages (Bash, Python)",
+            "Familiar with CI/CD tools like Jenkins",
+            "Strong knowledge of Kubernetes and Docker",
+            "Problem-solving and troubleshooting skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Meta",
+      "logo": "https://i.ibb.co.com/7JtL59Fs/meta.jpg",
+      "location": "Menlo Park, CA",
+      "website": "https://www.meta.com",
+      "industry": "Social Media",
+      "jobs": [
+        {
+          "id": "meta-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Menlo Park, CA",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Develop web applications for Meta's platforms.",
+          "requirements": [
+            "Proficient in React.js, JavaScript, and CSS",
+            "Experience with mobile-first design",
+            "Understanding of UI/UX best practices",
+            "Knowledge of APIs and third-party integrations",
+            "Attention to detail"
+          ]
+        },
+        {
+          "id": "meta-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Menlo Park, CA",
+          "salary": "$110k - $140k",
+          "jobType": "Full-time",
+          "description": "Work on backend services that power Meta's social platforms.",
+          "requirements": [
+            "Experience in Python, Node.js, or Java",
+            "Knowledge of cloud platforms (AWS, GCP)",
+            "Database management experience (MySQL, MongoDB)",
+            "Familiarity with microservices architecture",
+            "Excellent problem-solving skills"
+          ]
+        },
+        {
+          "id": "meta-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Menlo Park, CA",
+          "salary": "$95k - $120k",
+          "jobType": "Full-time",
+          "description": "Design user interfaces for Meta products.",
+          "requirements": [
+            "Experience in Figma, Sketch, or Adobe XD",
+            "Strong understanding of accessibility and usability",
+            "Ability to conduct user research",
+            "Portfolio of UI/UX work",
+            "Experience with design systems"
+          ]
+        },
+        {
+          "id": "meta-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Support and enhance Meta's infrastructure and automation.",
+          "requirements": [
+            "Experience with AWS, Kubernetes, and Terraform",
+            "Proficiency in Docker and container orchestration",
+            "Experience with CI/CD tools",
+            "Strong scripting skills",
+            "Familiarity with monitoring tools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Samsung",
+      "logo": "https://i.ibb.co.com/bRzLnzgF/samsung.png",
+      "location": "Seoul, South Korea",
+      "website": "https://www.samsung.com",
+      "industry": "Electronics",
+      "jobs": [
+        {
+          "id": "samsung-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Seoul, South Korea",
+          "salary": "$90k - $120k",
+          "jobType": "Full-time",
+          "description": "Develop web interfaces for Samsung products.",
+          "requirements": [
+            "Experience with HTML, CSS, and JavaScript",
+            "Knowledge of modern frameworks like React.js",
+            "Ability to create responsive designs",
+            "Proficiency in API integration",
+            "Strong debugging skills"
+          ]
+        },
+        {
+          "id": "samsung-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Seoul, South Korea",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Work on backend services powering Samsung platforms.",
+          "requirements": [
+            "Proficiency in Java, Python, or Node.js",
+            "Experience with relational and NoSQL databases",
+            "Knowledge of cloud infrastructure (AWS, GCP)",
+            "Familiarity with microservices",
+            "Strong debugging skills"
+          ]
+        },
+        {
+          "id": "samsung-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Seoul, South Korea",
+          "salary": "$95k - $120k",
+          "jobType": "Full-time",
+          "description": "Design seamless user experiences for Samsung's products.",
+          "requirements": [
+            "Experience with design tools like Sketch or Figma",
+            "Portfolio showcasing UI/UX design work",
+            "Experience in usability testing and user research",
+            "Good communication skills",
+            "Familiarity with design systems"
+          ]
+        },
+        {
+          "id": "samsung-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Manage CI/CD pipelines and cloud infrastructure for Samsung's platform.",
+          "requirements": [
+            "Experience with Docker and Kubernetes",
+            "Proficiency in cloud platforms (AWS, Azure)",
+            "Familiarity with Terraform and Jenkins",
+            "Strong knowledge of Linux and shell scripting",
+            "Excellent problem-solving skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Dell",
+      "logo": "https://i.ibb.co.com/WS5MJhL/dell.jpg",
+      "location": "Round Rock, TX",
+      "website": "https://www.dell.com",
+      "industry": "Technology",
+      "jobs": [
+        {
+          "id": "dell-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Round Rock, TX",
+          "salary": "$95k - $125k",
+          "jobType": "Full-time",
+          "description": "Work on the frontend of Dell's enterprise software solutions.",
+          "requirements": [
+            "Expert in HTML, CSS, and JavaScript",
+            "Experience with modern frameworks like React.js",
+            "Strong experience in responsive design",
+            "Familiar with RESTful APIs",
+            "Excellent attention to detail"
+          ]
+        },
+        {
+          "id": "dell-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Round Rock, TX",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Develop backend services and APIs for Dell software.",
+          "requirements": [
+            "Experience with Node.js or Java",
+            "Experience with cloud platforms like AWS",
+            "Strong knowledge of databases",
+            "Familiarity with microservices",
+            "Excellent debugging skills"
+          ]
+        },
+        {
+          "id": "dell-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Round Rock, TX",
+          "salary": "$90k - $115k",
+          "jobType": "Full-time",
+          "description": "Design user-friendly interfaces for Dell's business applications.",
+          "requirements": [
+            "Proficiency with design tools like Sketch or Figma",
+            "Experience in wireframing and prototyping",
+            "Strong portfolio",
+            "Familiarity with design systems",
+            "Experience with user research"
+          ]
+        },
+        {
+          "id": "dell-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Automate and manage Dell's cloud and infrastructure services.",
+          "requirements": [
+            "Experience with AWS, Docker, Kubernetes",
+            "Proficiency in scripting (Bash, Python)",
+            "Experience with Terraform",
+            "Familiarity with CI/CD pipelines",
+            "Problem-solving mindset"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "HP",
+      "logo": "https://i.ibb.co.com/v4zN9VKR/hp.png",
+      "location": "Palo Alto, CA",
+      "website": "https://www.hp.com",
+      "industry": "Technology",
+      "jobs": [
+        {
+          "id": "hp-frontend-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://i.ibb.co.com/xKJtqjh1/download.jpg",
+          "location": "Palo Alto, CA",
+          "salary": "$100k - $130k",
+          "jobType": "Full-time",
+          "description": "Create user interfaces for HP's business products.",
+          "requirements": [
+            "Expert knowledge in JavaScript, HTML, CSS",
+            "Experience with React.js",
+            "Familiarity with REST APIs",
+            "Responsive web design experience",
+            "Attention to detail"
+          ]
+        },
+        {
+          "id": "hp-backend-002",
+          "title": "Backend Developer",
+          "bannerImage": "https://i.ibb.co.com/5XDSsfkJ/Backend-Development.webp",
+          "location": "Palo Alto, CA",
+          "salary": "$110k - $140k",
+          "jobType": "Full-time",
+          "description": "Work on the backend systems of HP's cloud services.",
+          "requirements": [
+            "Proficiency in Node.js or Python",
+            "Knowledge of cloud platforms",
+            "Experience with MySQL or MongoDB",
+            "Understanding of microservices architecture",
+            "Strong debugging skills"
+          ]
+        },
+        {
+          "id": "hp-uiux-003",
+          "title": "UI/UX Designer",
+          "bannerImage": "https://i.ibb.co.com/k2TnyVdp/Become-UI-Designer-in-2023.png",
+          "location": "Palo Alto, CA",
+          "salary": "$95k - $120k",
+          "jobType": "Full-time",
+          "description": "Design user-friendly interfaces for HP products.",
+          "requirements": [
+            "Experience with design tools (Sketch, Figma)",
+            "Strong portfolio of UI/UX designs",
+            "Knowledge of accessibility principles",
+            "Familiarity with design systems",
+            "Good communication skills"
+          ]
+        },
+        {
+          "id": "hp-devops-004",
+          "title": "DevOps Engineer",
+          "bannerImage": "https://i.ibb.co.com/KjYqFgp4/Dev-Ops-Engineer.jpg",
+          "location": "Remote",
+          "salary": "$120k - $150k",
+          "jobType": "Remote",
+          "description": "Maintain and enhance HP's cloud infrastructure.",
+          "requirements": [
+            "Experience with cloud platforms (AWS, Azure)",
+            "Proficiency in Docker, Kubernetes",
+            "CI/CD pipeline management experience",
+            "Terraform or Ansible expertise",
+            "Strong scripting skills"
+          ]
+        }
+      ]
+    }
+  ]
+  
+  

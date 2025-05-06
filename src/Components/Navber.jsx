@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '/686413_Jobs-image-icon-207887.jpg'
 import { NavLink } from 'react-router';
+import { FaUserCircle } from 'react-icons/fa';
 const Navber = () => { 
     const link=(
         <>
-        <li className='ml-5'><NavLink className='font-semibold text-blue-500 text-lg hover:bg-blue-500 hover:text-white' to=''>Home</NavLink></li>
-        <li className='ml-5'><NavLink className='font-semibold text-blue-500 text-lg hover:bg-blue-500 hover:text-white'>Login</NavLink></li>
-        <li className='ml-5'><NavLink className='font-semibold text-blue-500 text-lg hover:bg-blue-500 hover:text-white'>Register</NavLink></li>
+        <li className='ml-5'><NavLink className='font-semibold text-blue-500 text-lg hover:bg-blue-500 hover:text-white' to='/'>Home</NavLink></li>
+        <li className='ml-5'><NavLink className='font-semibold text-blue-500 text-lg hover:bg-blue-500 hover:text-white'>My profile</NavLink></li>
+        <li className='ml-5'><NavLink className='font-semibold text-blue-500 text-lg hover:bg-blue-500 hover:text-white'>Successes</NavLink></li>
         </>
     )
     return (
@@ -23,7 +24,7 @@ const Navber = () => {
             </ul>
           </div>
           <div className='flex justify-center items-center gap-3'>
-            <img className='w-15 hidden md:block' src={logo} alt="" />
+            <img className='w-15 rounded-full hidden md:block' src={logo} alt="" />
           <button className=" p-4 font-bold text-blue-500 text-2xl">JoBsTrack</button>
           </div>
         </div>
@@ -32,8 +33,9 @@ const Navber = () => {
            {link}
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</a>
+        <div className="navbar-end gap-3    ">
+        <FaUserCircle size={50} />
+          <a className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</a>
         </div>
       </div>
     );
