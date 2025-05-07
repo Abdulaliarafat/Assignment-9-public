@@ -41,6 +41,7 @@ const Register = () => {
                         {/* {error && <p className='text-red-500 font-sans'>{error}</p>} */}
                         <label className="label">Photo URL</label>
                         <input type="text" name='photo' className="input" placeholder="Photo URL"   required/>
+                         <label className="label">Name</label>
                         <label className="label">Email</label>
                         <input type="email" name='email' className="input" placeholder="Email"  required />
                         <label className="label">Password</label>

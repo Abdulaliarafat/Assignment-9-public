@@ -1,13 +1,15 @@
 import React, { use } from 'react';
 import logo from '/686413_Jobs-image-icon-207887.jpg'
-import { Link, NavLink } from 'react-router';
+import { Link, NavLink, useNavigate } from 'react-router';
 import { FaUserCircle } from 'react-icons/fa';
 import { AuthContext } from '../Auth/AuthProvider';
 const Navber = () => { 
+  const navigate=useNavigate()
   const {user,LogOut}=use(AuthContext)
   const handleLogout=()=>{
     LogOut().then(()=>{
-
+      navigate('/')
+      alert('LogOut successesfull')
     })
     .catch((error) => {
       // An error happened.
@@ -47,7 +49,7 @@ const Navber = () => {
         </div>
         <div className="navbar-end gap-3    ">
           {
-            user ? user.email: <FaUserCircle size={50} />
+            user ? <Link to='/myProfile/profile'><img className='w-20' src={user.photoURL} alt="" /></Link> : <FaUserCircle size={50} />
           }
           {
             user ? <button onClick={handleLogout} to='/logInLayout/login' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">LogOut</button>: <Link to='/logInLayout/login' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</Link>
