@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import Companies from "../Components/Companies";
 import CompaniesDetails from "../Pages/CompaniesDetails";
 import Loading from "../Components/Loading";
+import LogInLayout from "../Pages/LogInLayout";
 
 export const router = createBrowserRouter([
     {
@@ -23,5 +24,9 @@ export const router = createBrowserRouter([
       Component:CompaniesDetails,
       loader:()=>fetch('/Company.json'),
       hydrateFallbackElement:<Loading></Loading>
+    },
+    {
+      path:'/logInLayout',
+      Component:LogInLayout
     }
   ]);

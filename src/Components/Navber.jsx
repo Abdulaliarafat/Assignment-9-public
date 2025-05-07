@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '/686413_Jobs-image-icon-207887.jpg'
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { FaUserCircle } from 'react-icons/fa';
 const Navber = () => { 
     const link=(
@@ -35,7 +35,7 @@ const Navber = () => {
         </div>
         <div className="navbar-end gap-3    ">
         <FaUserCircle size={50} />
-          <a className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</a>
+          <Link to='/logInLayout' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</Link>
         </div>
       </div>
     );
