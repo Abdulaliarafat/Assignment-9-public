@@ -7,7 +7,7 @@ const Docs = () => {
         <div className='max-w-5xl mx-auto my-5 bg-gradient-to-b from-blue-100 to-red-50  py-20 rounded-2xl'>
             <h1 className='font-bold text-3xl text-center'>Read the document for smooth learning</h1>
             <p className='font-normal text-md text-center mt-3'>Read the document carefully every day to understand concepts,<br /> retain knowledge, and build confidence gradually</p>
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-5 my-5 p-10 '>
+            <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5 p-10 '>
                 <div className='block mx-auto space-y-3  p-3 px-6 bg-white rounded-2xl shadow-xl'>
                 <SiHtml5 size={100} className='bg-blue-500 p-3 rounded-3xl' color='white' />
                 <p className='font-bold text-lg'>HTML documents</p>
