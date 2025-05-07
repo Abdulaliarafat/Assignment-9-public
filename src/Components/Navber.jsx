@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { use } from 'react';
 import logo from '/686413_Jobs-image-icon-207887.jpg'
 import { Link, NavLink } from 'react-router';
 import { FaUserCircle } from 'react-icons/fa';
+import { AuthContext } from '../Auth/AuthProvider';
 const Navber = () => { 
+  const {user,LogOut}=use(AuthContext)
+  const handleLogout=()=>{
+    LogOut().then(()=>{
+
+    })
+    .catch((error) => {
+      // An error happened.
+      console.log(error)
+    });
+    
+  }
     const link=(
         <>
         <li className='ml-5'><NavLink className='font-semibold text-blue-500 text-lg hover:bg-blue-500 hover:text-white' to='/'>Home</NavLink></li>
@@ -34,8 +46,13 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end gap-3    ">
-        <FaUserCircle size={50} />
-          <Link to='/logInLayout' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</Link>
+          {
+            user ? user.email: <FaUserCircle size={50} />
+          }
+          {
+            user ? <button onClick={handleLogout} to='/logInLayout/login' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">LogOut</button>: <Link to='/logInLayout/login' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</Link>
+          }
+          
         </div>
       </div>
     );
