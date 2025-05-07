@@ -16,6 +16,7 @@ const CompaniesDetails = () => {
    
     return (
         <div>
+            <title>Companies details</title>
            <header>
            <Navber></Navber>
            </header>

@@ -5,10 +5,11 @@ import Home from "../Pages/Home";
 import CompaniesDetails from "../Pages/CompaniesDetails";
 import Loading from "../Components/Loading";
 import LogInLayout from "../Pages/LogInLayout";
-import LogIn from "../Components/LogIn.Jsx";
 import Register from "../Components/Register";
 import MyProfile from "../Pages/MyProfile";
 import Profile from "../Components/Profile";
+import PrivateRoute from "../Auth/PrivateRoute";
+import LogInPage from "../Components/LogInPage";
 
 
 
@@ -27,7 +28,11 @@ export const router = createBrowserRouter([
     },
     {
       path:'/company/:id',
-      Component:CompaniesDetails,
+      element:(
+        <PrivateRoute>
+          <CompaniesDetails></CompaniesDetails>
+        </PrivateRoute>
+      ),
       loader:()=>fetch('/Company.json'),
       hydrateFallbackElement:<Loading></Loading>
     },
@@ -37,7 +42,7 @@ export const router = createBrowserRouter([
       children:[
         {
           path:'/logInLayout/login',
-         Component:LogIn
+         Component:LogInPage
         },
         {
           path:'/logInLayout/register',

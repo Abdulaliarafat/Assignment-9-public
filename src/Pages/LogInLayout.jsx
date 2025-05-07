@@ -7,6 +7,7 @@ import { Outlet } from 'react-router';
 const LogInLayout = () => {
     return (
         <div>
+            <title>Login page</title>
             <header>
                 <Navber></Navber>
             </header>

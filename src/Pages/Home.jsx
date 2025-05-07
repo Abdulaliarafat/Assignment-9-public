@@ -8,6 +8,7 @@ const Home = () => {
    
     return (
         <div className=''>
+            <title>Home page</title>
            <Banner></Banner>
            <Suspense fallback={<p className='text-center'><span className="loading loading-bars loading-xl text-blue-700"></span></p>}>
            <Companies></Companies>

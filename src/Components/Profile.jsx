@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 
 const Profile = () => {
     const {user}=use(AuthContext)
-    if(!user){
+    if(!user ){
         return <Loading></Loading>
     }
     return (

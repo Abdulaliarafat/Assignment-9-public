@@ -6,6 +6,7 @@ import { Outlet } from 'react-router';
 const MyProfile = () => {
     return (
         <div>
+            <title>My profile</title>
             <header>
                 <Navber></Navber>
             </header>
