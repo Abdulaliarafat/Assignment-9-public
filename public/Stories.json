@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Omar Farooq",
+      "job_title": "UI/UX Designer",
+      "company": "CreativeLabs",
+      "story": "Omar started designing from his bedroom, built a strong portfolio, and now leads projects at CreativeLabs, inspiring juniors with creativity and dedication daily.",
+      "img_url": "https://i.ibb.co.com/4wprKsH4/download-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ahmed Saeed",
+      "job_title": "Data Analyst",
+      "company": "DataWave",
+      "story": "Ahmed taught himself Python online, cracked tough interviews, and now analyzes big data trends that shape company strategies at DataWave.",
+      "img_url": "https://i.ibb.co.com/LhQ2jJjZ/download2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bilal Hussain",
+      "job_title": "DevOps Engineer",
+      "company": "CloudWorks",
+      "story": "Bilal transitioned from system admin to DevOps after earning certifications, and now streamlines deployments for a global client base at CloudWorks.",
+      "img_url": "https://i.ibb.co.com/nNhgBwTf/download3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Yusuf Kamal",
+      "job_title": "Backend Developer",
+      "company": "CodeCrafters",
+      "story": "Yusuf mastered Node.js and databases during nights after work. Today, he leads backend architecture for scalable apps at CodeCrafters.",
+      "img_url": "https://i.ibb.co.com/r22W6wyg/download4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Imran Tariq",
+      "job_title": "Cybersecurity Specialist",
+      "company": "SecureNet",
+      "story": "Imran built his cybersecurity skills through open-source contributions and landed his dream job protecting enterprise networks at SecureNet.",
+      "img_url": "https://i.ibb.co.com/mVxcZQ95/download5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ali Raza",
+      "job_title": "Software Engineer",
+      "company": "NextGenTech",
+      "story": "Ali switched from teaching to tech, learned Java, and now contributes to major enterprise software development at NextGenTech.",
+      "img_url": "https://i.ibb.co.com/W43qNGkP/download6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Hassan Qureshi",
+      "job_title": "Cloud Architect",
+      "company": "SkyNet Solutions",
+      "story": "Hassan earned AWS certifications and built cloud systems from scratch. Now, he designs infrastructure for global apps at SkyNet Solutions.",
+      "img_url": "https://i.ibb.co.com/w9LyWJc/images7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Salman Javed",
+      "job_title": "Product Owner",
+      "company": "BrightLogic",
+      "story": "Salman combined tech experience with business skills, became a certified Scrum Product Owner, and now drives innovation at BrightLogic.",
+      "img_url": "https://i.ibb.co.com/Q7gVgWXF/images8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Tariq Mehmood",
+      "job_title": "Project Manager",
+      "company": "DigitalFlow",
+      "story": "Tariq rose from QA engineer to project manager by improving processes and earning trust. He now leads successful tech teams at DigitalFlow.",
+      "img_url": "https://i.ibb.co.com/B29tqm2Y/download9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Naveed Akhtar",
+      "job_title": "IT Consultant",
+      "company": "GlobalTech",
+      "story": "Naveed’s freelancing journey led to consulting roles. His strategic advice helps businesses scale digital operations globally with GlobalTech.",
+      "img_url": "https://i.ibb.co.com/8DmwMQxR/download10.jpg"
+    }
+  ]
+  

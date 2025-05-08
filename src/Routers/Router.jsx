@@ -10,6 +10,8 @@ import MyProfile from "../Pages/MyProfile";
 import Profile from "../Components/Profile";
 import PrivateRoute from "../Auth/PrivateRoute";
 import LogInPage from "../Components/LogInPage";
+import Successes from "../Pages/Successes";
+import Stories from "../Components/Stories";
 
 
 
@@ -52,11 +54,25 @@ export const router = createBrowserRouter([
     },
     {
       path:'/myProfile',
-      Component:MyProfile,
+      element:<PrivateRoute>
+        <MyProfile></MyProfile>
+      </PrivateRoute>,
       children:[
         {
           path:'/myProfile/profile',
           Component:Profile
+        }
+      ]
+    },
+    {
+      path:'/successes',
+      Component:Successes,
+      children:[
+        {
+          path:'/successes/stories',
+          Component:Stories,
+          loader:()=>fetch('/Stories.json'),
+          hydrateFallbackElement:<Loading></Loading>
         }
       ]
     }

@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "HTML Basics",
+      "img": "https://i.ibb.co.com/XZdKMYQd/images.jpg",
+      "video": "https://www.youtube.com/watch?v=UB1O30fR-EE"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Essentials",
+      "img": "https://i.ibb.co.com/LXGQFH2W/images-1.jpg",
+      "video": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+    },
+    {
+      "id": 3,
+      "title": "React Introduction",
+      "img": "https://i.ibb.co.com/5xBCndpK/download.png",
+      "video": "https://www.youtube.com/watch?v=SqcY0GlETPk"
+    },
+    {
+      "id": 4,
+      "title": "Next.js Crash Course",
+      "img": "https://i.ibb.co.com/7tJN9nrQ/download.jpg",
+      "video": "https://www.youtube.com/watch?v=1WmNXEVia8I"
+    }
+  ]
+  
