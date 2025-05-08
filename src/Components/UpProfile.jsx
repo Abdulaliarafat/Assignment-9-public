@@ -1,5 +1,6 @@
 import React, { use } from 'react';
 import { AuthContext } from '../Auth/AuthProvider';
+import { toast, ToastContainer } from 'react-toastify';
 
 const UpProfile = () => {
     const {setUser,userProfile}=use(AuthContext)
@@ -11,14 +12,16 @@ const UpProfile = () => {
      console.log(name,photo)
      userProfile({displayName:name,photoURL:photo}).then(()=>{
         setUser({displayName:name,photoURL:photo})
+        toast.success("Update successfull");
      })
      .catch((error) => {
-       alert(error)
+        toast.warn(error);
       });
 
     }
     return (
         <div className='max-w-4xl mx-auto'>
+            <ToastContainer position="top-center"/>
             <div className="card bg-base-100 w-full max-w-sm mx-auto shrink-0 shadow-2xl my-10">
                 <div className="card-body bg-gradient-to-b from-blue-300 to-red-100">
                     <h1 className="text-2xl font-bold text-center">Register your account</h1>

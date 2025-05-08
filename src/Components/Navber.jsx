@@ -21,9 +21,9 @@ const Navber = () => {
   }
   const link = (
     <>
-      <li><NavLink to='/' className={({ isActive }) => `ml-5 font-semibold text-lg ${isActive ? 'bg-blue-500 text-white' : 'text-blue-500 hover:bg-blue-500 hover:text-white'}`}>Home</NavLink></li>
-      <li><NavLink to='/myProfile/profile' className={({ isActive }) => `ml-5 font-semibold text-lg ${isActive ? 'bg-blue-500 text-white' : 'text-blue-500 hover:bg-blue-500 hover:text-white'}`}>My profile</NavLink></li>
-      <li><NavLink to='/successes/stories' className={({ isActive }) => `ml-5 font-semibold text-lg ${isActive ? 'bg-blue-500 text-white' : 'text-blue-500 hover:bg-blue-500 hover:text-white'}`}>Successes</NavLink></li>
+      <li><NavLink to='/' className={({ isActive }) => `ml-5 font-medium text-lg ${isActive ? 'bg-blue-500 text-white' : 'text-blue-400 hover:bg-blue-500 hover:text-white'}`}>Home</NavLink></li>
+      <li><NavLink to='/myProfile/profile' className={({ isActive }) => `ml-5 font-medium text-lg ${isActive ? 'bg-blue-500 text-white' : 'text-blue-400 hover:bg-blue-500 hover:text-white'}`}>My profile</NavLink></li>
+      <li><NavLink to='/successes/stories' className={({ isActive }) => `ml-5 font-medium text-lg ${isActive ? 'bg-blue-500 text-white' : 'text-blue-400 hover:bg-blue-500 hover:text-white'}`}>Successes</NavLink></li>
 
     </>
   )
@@ -42,7 +42,7 @@ const Navber = () => {
           </ul>
         </div>
         <div className='flex justify-center items-center gap-3'>
-          <img className='w-15 rounded-full hidden md:block' src={logo} alt="" />
+          <Link to='/'><img  className='w-15 rounded-full' src={logo} alt="" /></Link>  
           <button className=" p-4 font-bold text-blue-500 text-2xl">JoBsTrack</button>
         </div>
       </div>
