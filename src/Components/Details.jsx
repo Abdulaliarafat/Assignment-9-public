@@ -1,6 +1,7 @@
 import React from 'react';
 import Jobs from './jobs';
 
+
 const Details = ({singleDetails}) => {
    const{logo,name,location,industry,jobs}=(singleDetails)
     return (

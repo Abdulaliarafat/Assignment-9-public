@@ -12,6 +12,8 @@ import PrivateRoute from "../Auth/PrivateRoute";
 import LogInPage from "../Components/LogInPage";
 import Successes from "../Pages/Successes";
 import Stories from "../Components/Stories";
+import Update from "../Pages/Update";
+import UpProfile from "../Components/UpProfile";
 
 
 
@@ -75,5 +77,15 @@ export const router = createBrowserRouter([
           hydrateFallbackElement:<Loading></Loading>
         }
       ]
+    },
+    {
+     path:'/update',
+     Component:Update,
+     children:[
+      {
+        path:'/update/UpProfile',
+        Component:UpProfile
+      }
+     ]
     }
   ]);

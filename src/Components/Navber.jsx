@@ -13,8 +13,8 @@ const Navber = () => {
       toast.success("LogOut successfull");
     })
       .catch((error) => {
-        // An error happened.
-        // console.log(error)
+        
+        console.log(error)
         toast.warn("Registraion Please..!!");
       });
 
