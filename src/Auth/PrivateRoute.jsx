@@ -4,11 +4,11 @@ import { Navigate, useLocation } from 'react-router';
 import Loading from '../Components/Loading';
 
 const PrivateRoute = ({children}) => {
-    const {user,loadingSpan}=use(AuthContext)
+    const {user,loading}=use(AuthContext)
     const location=useLocation()
     console.log(location)
 
-      if(loadingSpan){
+      if(loading){
         return <Loading></Loading>
       }
        if(user && user.photoURL){
