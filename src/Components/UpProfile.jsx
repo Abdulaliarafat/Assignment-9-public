@@ -21,6 +21,7 @@ const UpProfile = () => {
     }
     return (
         <div className='max-w-4xl mx-auto'>
+            <title>Update your profile</title>
             <ToastContainer position="top-center"/>
             <div className="card bg-base-100 w-full max-w-sm mx-auto shrink-0 shadow-2xl my-10">
                 <div className="card-body bg-gradient-to-b from-blue-300 to-red-100">

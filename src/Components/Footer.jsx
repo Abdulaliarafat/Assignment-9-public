@@ -19,19 +19,10 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='flex justify-evenly  my-5'>
-                <div className='mt-2'>
-                    <h1 className='font-bold  mb-3'>⚖️  Terms and conditions</h1>
-                    <div className='flex flex-col text-md font-medium text-balance text-gray-700  '>
-                   <span>🌐 Account required to access job features </span><br />
-                   <span>🌐 User data stored for service improvement</span> <br />
-                   <span>🌐 No guarantee of job placement</span> <br />
-                   <span>🌐 Respect employer confidentiality and privacy policies </span><br />
-                   <span>🌐 Misuse may lead to account suspension</span> <br />
-                    </div>
-                </div>
+                <div>
                 <div>
                 <h1 className='font-semibold text-lg mb-2'>📍Location (Dhaka Office)</h1>
-                    <p className='text-lg text-balance text-gray-800 '>
+                    <p className='text-md font-medium text-balance text-gray-800 '>
                         <a className='hover:underline' href="https://www.google.com/maps/place/Programming+Hero/@23.7936109,90.4027887,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c7163736e453:0xb12cfac638de13ed!8m2!3d23.7936109!4d90.4053636!16s%2Fg%2F11vws7qfy2?entry=ttu&g_ep=EgoyMDI1MDUwNS4wIKXMDSoASAFQAw%3D%3D">
                             JobTrack HQ (Bangladesh Office)
                             <br />House #123,Road #4, Block B,
@@ -44,9 +35,20 @@ const Footer = () => {
                         📧 Email: <span className='underline'>support@jobtrack.com</span> <br />
                     </p>
                 </div>
+                </div>
+                <div className='mt-2'>
+                    <h1 className='font-bold  mb-3'>⚖️  Terms and conditions</h1>
+                    <p className='flex flex-col text-sm font-medium text-balance '>
+                   🌐 Account required to access job features <br />
+                   🌐 User data stored for service improvement<br />
+                   🌐 No guarantee of job placement<br />
+                   🌐 Respect employer confidentiality and privacy policies<br />
+                   🌐 Misuse may lead to account suspension<br />
+                    </p>
+                </div>
                 <div className=' ml-2'>
-                    <h1 className='font-bold mb-10'>Follow on </h1>
-                    <div className='flex flex-col gap-3'>
+                    <h1 className='font-bold mb-3'>Follow on </h1>
+                    <div className='flex flex-col gap-2'>
                     <a href="https://www.facebook.com/share/v/15pQTabBgd/"> <FaFacebook size={30} color='blue' /></a>
                     <a href="https://www.instagram.com/reel/DJKGttVNDSy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="> <FaInstagram size={30} color='red' /></a>
                     <a href="https://www.instagram.com/reel/DI_wIDry-bY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><FaX size={30} color='black' /></a>
@@ -54,6 +56,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+           <p className='font-semibold text-sm text-center'> @JoBsTrack 2024</p>
         </div>
     );
 };
