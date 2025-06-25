@@ -2,6 +2,11 @@
 
 **JobTrac** is a modern and responsive job tracking web application that helps users manage job listings with a clean, user-friendly interface. It features secure authentication, protected routes, and interactive UI elements built with cutting-edge web technologies.
 
+## 🖼️ Screenshot
+
+![JobTrac Screenshot](https://i.ibb.co/wZ7NWpdp/Whats-App-Image-2025-06-25-at-14-02-30-cea7aa63.jpg) <!-- Replace with actual image URL -->
+
+
 --
 
 # Getting Started Locally
