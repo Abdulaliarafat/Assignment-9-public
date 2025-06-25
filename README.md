@@ -5,23 +5,24 @@
 --
 
 # Getting Started Locally
+
  git clone https://github.com/Abdulaliarafat/Assignment-9-public.git
  
  --
- 
- cd jobtrac
- npm install
- .env.local
+# cd jobtrac
+# npm install
+# .env.local
  
  --
 
 ------
-VITE_apiKey=your_api_key
-VITE_authDomain=your_auth_domain
-VITE_projectId=your_project_id
-VITE_storageBucket=your_storage_bucket
-VITE_messagingSenderId=your_messaging_sender_id
-VITE_appId=your_app_id
+# VITE_apiKey=your_api_key
+# VITE_authDomain=your_auth_domain
+# VITE_projectId=your_project_id
+# VITE_storageBucket=your_storage_bucket
+# VITE_messagingSenderId=your_messaging_sender_id
+# VITE_appId=your_app_id
+
 ------
 npm run dev
 
