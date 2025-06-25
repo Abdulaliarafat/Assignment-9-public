@@ -6,9 +6,14 @@
 
 # Getting Started Locally
  git clone https://github.com/Abdulaliarafat/Assignment-9-public.git
+ 
+ --
+ 
  cd jobtrac
  npm install
  .env.local
+ 
+ --
 
 ------
 
