@@ -1,4 +1,4 @@
-# JobTrac
+# JobTrack
 
 **JobTrac** is a responsive job tracking web application built with modern front-end technologies. It allows users to browse, save, and manage job listings. Authentication is handled with Firebase, and the app is deployed on Netlify.
 
@@ -33,11 +33,3 @@
 - 🌈 Smooth animations using Framer Motion
 - 📱 Fully responsive design
 
----
-
-
-## 🔧 Installation & Setup
-
-# npm 7+, extra double-dash is needed:
-
-npm create vite@latest assignment-9  -- --template react
