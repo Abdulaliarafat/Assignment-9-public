@@ -24,7 +24,7 @@
 # VITE_appId=your_app_id
 
 ------
-npm run dev
+# npm run dev
 
 ## 🌐 Live Demo
 
