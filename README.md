@@ -22,14 +22,8 @@ VITE_appId=your_app_id
 
 🔴 Live Site: https://assignment-auth-9.netlify.app/
 
-🟣 GitHub Repo: https://github.com/your-username/jobtrac
+🟣 GitHub Repo: https://github.com/Abdulaliarafat/Assignment-9-public
     
----
-
-## 🖼️ Screenshot
-
-![JobTrac Screenshot](https://your-image-link.com) <!-- Replace this with an actual image URL -->
-
 ---
 
 ## 🚀 Tech Stack
