@@ -14,7 +14,7 @@
  git clone https://github.com/Abdulaliarafat/Assignment-9-public.git
  
  --
-# cd jobtrac
+# cd Assignment-9-public
 # npm install
 # .env.local
  
