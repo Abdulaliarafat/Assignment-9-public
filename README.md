@@ -3,11 +3,11 @@
 **JobTrac** is a modern and responsive job tracking web application that helps users manage job listings with a clean, user-friendly interface. It features secure authentication, protected routes, and interactive UI elements built with cutting-edge web technologies.
 
 ---
-# Getting Started Locally
-# git clone https://github.com/Abdulaliarafat/Assignment-9-public.git
-# cd jobtrac
-# npm install
-# .env.local
+ Getting Started Locally
+ git clone https://github.com/Abdulaliarafat/Assignment-9-public.git
+ cd jobtrac
+ npm install
+.env.local
 ------
 VITE_apiKey=your_api_key
 VITE_authDomain=your_auth_domain
@@ -16,7 +16,7 @@ VITE_storageBucket=your_storage_bucket
 VITE_messagingSenderId=your_messaging_sender_id
 VITE_appId=your_app_id
 ------
-# npm run dev
+ npm run dev
 
 ## 🌐 Live Demo
 
