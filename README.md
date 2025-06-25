@@ -20,9 +20,9 @@ VITE_appId=your_app_id
 
 ## 🌐 Live Demo
 
-🔗 [View JobTrac on Netlify](https://assignment-auth-9.netlify.app/)
-    [View JobTrac on GitHub]((https://github.com/Abdulaliarafat/Assignment-9-public/tree/main))
+🔴 Live Site: https://assignment-auth-9.netlify.app/
 
+🟣 GitHub Repo: https://github.com/your-username/jobtrac
     
 ---
 
