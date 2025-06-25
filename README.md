@@ -3,7 +3,7 @@
 **JobTrac** is a modern and responsive job tracking web application that helps users manage job listings with a clean, user-friendly interface. It features secure authentication, protected routes, and interactive UI elements built with cutting-edge web technologies.
 
 ---
-## Getting Started Locally
+# Getting Started Locally
 # git clone https://github.com/your-username/jobtrac.git
 # cd jobtrac
 # npm install
@@ -21,7 +21,8 @@ VITE_appId=your_app_id
 ## 🌐 Live Demo
 
 🔗 [View JobTrac on Netlify](https://assignment-auth-9.netlify.app/)
-    [View JobTrac on GitHub](https://assignment-auth-9.netlify.app/)
+    [View JobTrac on GitHub]((https://github.com/Abdulaliarafat/Assignment-9-public/tree/main))
+
     
 ---
 
