@@ -20,7 +20,7 @@
 
 ## 🌐 Live Demo
 
-🔴 Live Site: https://bitclick-app.netlify.app/
+🔴 Live Site: https://jobtrack-app.netlify.app/
 
 🟣 GitHub Repo: https://github.com/Abdulaliarafat/JobTrack-app
     
