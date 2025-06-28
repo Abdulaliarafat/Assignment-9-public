@@ -20,9 +20,9 @@
 
 ## 🌐 Live Demo
 
-🔴 Live Site: https://assignment-auth-9.netlify.app/
+🔴 Live Site: https://bitclick-app.netlify.app/
 
-🟣 GitHub Repo: https://github.com/Abdulaliarafat/Assignment-9-public
+🟣 GitHub Repo: 
     
 ---
 
