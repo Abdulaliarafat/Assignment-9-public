@@ -22,7 +22,7 @@
 
 🔴 Live Site: https://bitclick-app.netlify.app/
 
-🟣 GitHub Repo: 
+🟣 GitHub Repo: https://github.com/Abdulaliarafat/JobTrack-app
     
 ---
 
