@@ -18,7 +18,7 @@ const Footer = () => {
                     <li><NavLink to='/successes/stories' className={({ isActive }) => `ml-5 font-medium text-lg ${isActive ? 'bg-blue-400 text-white' : 'text-blue-500 hover:bg-blue-500 hover:text-white'}`}>Successes</NavLink></li>
                 </ul>
             </div>
-            <div className='flex justify-evenly  my-5'>
+            <div className='md:flex justify-evenly space-y-7 ml-6 md:ml-0 md:space-y-0 my-5'>
                 <div>
                 <div>
                 <h1 className='font-semibold text-lg mb-2'>📍Location (Dhaka Office)</h1>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
                 <div className=' ml-2'>
                     <h1 className='font-bold mb-3'>Follow on </h1>
-                    <div className='flex flex-col gap-2'>
+                    <div className='flex md:flex-col flex-row gap-5 md:gap-2'>
                     <a href="https://www.facebook.com/share/v/15pQTabBgd/"> <FaFacebook size={30} color='blue' /></a>
                     <a href="https://www.instagram.com/reel/DJKGttVNDSy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="> <FaInstagram size={30} color='red' /></a>
                     <a href="https://www.instagram.com/reel/DI_wIDry-bY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><FaX size={30} color='black' /></a>
@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-           <p className='font-semibold text-sm text-center'> @JoBsTrack 2024</p>
+           <p className='font-medium text-sm text-center'> @ JoBsTrack 2025</p>
         </div>
     );
 };

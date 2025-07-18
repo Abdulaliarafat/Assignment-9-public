@@ -46,14 +46,14 @@ const Navber = () => {
           <button className=" p-4 font-bold text-blue-500 text-2xl">JoBsTrack</button>
         </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden md:flex">
         <ul className="menu menu-horizontal px-1">
           {link}
         </ul>
       </div>
-      <div className="navbar-end gap-3    ">
+      <div className="navbar-end gap-3">
         {
-          user ? <Link to='/myProfile/profile'><img className='w-15' src={user.photoURL} alt="" /></Link> : <FaUserCircle size={50} />
+          user ? <Link to='/myProfile/profile'><img className='w-15 rounded-xl' src={user.photoURL} alt="" /></Link> : <FaUserCircle size={50} />
         }
         {
           user ? <button onClick={handleLogout} to='/logInLayout/login' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">LogOut</button> : <Link to='/logInLayout/login' className="btn w-24 font-bold bg-gradient-to-r from-blue-900 to-blue-500 text-white hover:bg-gradient-to-t hover:from-blue-900 hover:to-blue-600 ">Login</Link>
